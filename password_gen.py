@@ -1,6 +1,7 @@
 import string
 import random
 
+# https://www.geeksforgeeks.org/create-a-random-password-generator-using-python/
 # Getting password length
 length = int(input("Enter password length: "))
 
