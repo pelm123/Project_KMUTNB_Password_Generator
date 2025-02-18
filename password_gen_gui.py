@@ -95,7 +95,7 @@ combo = Combobox(root, textvariable=var1)
 # Combo Box for length of your password
 combo['values'] = (8, 9, 10, 11, 12, 13, 14, 15, 16,
 				17, 18, 19, 20, 21, 22, 23, 24, 25,
-				26, 27, 28, 29, 30, 31, 32, "Length")
+				26, 27, 28, 29, 30, 31, 32, 33,  "Length")
 combo.current(0)
 combo.bind('<<ComboboxSelected>>')
 combo.grid(column=1, row=1)
