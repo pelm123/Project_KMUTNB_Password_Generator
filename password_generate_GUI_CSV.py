@@ -12,7 +12,7 @@ def generate_password(length=12):
 # Function to save passwords to a CSV file
 def save_to_csv(passwords, filename="passwords.csv"):
     try:
-        with open(filename, mode='w', newline='') as file:
+        with open(filename, mode='a', newline='') as file:
             writer = csv.writer(file)
             writer.writerow(["Passwords"])
             for pwd in passwords:
